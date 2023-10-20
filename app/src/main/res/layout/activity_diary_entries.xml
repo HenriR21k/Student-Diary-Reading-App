@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiaryEntries" >
+
+    <ListView
+        android:id="@+id/lvEntries"
+        android:layout_width="match_parent"
+        android:layout_height="653dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:translationX="85dp"
+        android:translationY="10dp" />
+
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Book Title:"
+        android:translationX="190dp"
+        android:translationY="10dp" />
+
+    <Button
+        android:id="@+id/BackBtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="11dp"
+        android:translationY="10dp" />
+
+</RelativeLayout>
